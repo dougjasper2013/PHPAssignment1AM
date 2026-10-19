@@ -5,6 +5,53 @@ body {
     padding: 20px;
 }
 
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.container h2 {
+    margin-bottom: 20px;
+    color: #333333;
+}
+
+.contact-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.contact-info {
+    text-align: center;
+}
+
+.contact-info p {
+    margin: 8px 0;
+    font-size: 16px;
+    color: #444444;
+}
+
+.back-link {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 10px 16px;
+    background-color: #0077CC;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: background-color 0.3 ease;
+}
+
+.back-link:hover {
+    background-color: #005FA3;
+}
+
 main {
     display: block;
     width: 1050px;
@@ -36,3 +83,25 @@ th, td {
     text-align: center;
     vertical-align: middle;
 }
+
+label {
+    width: 10em;
+    float: left;
+    padding-right: 1em;
+    padding-bottom: 0.5em;
+}
+
+#data input {
+    float: left;
+    width: 15em;
+    margin-bottom: 0.5em;
+}
+
+#data span {
+    padding: 0.25em;
+}
+
+br {
+    clear: left;
+}
+
